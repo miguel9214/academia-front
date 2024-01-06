@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Academic management</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,7 +19,7 @@
             <a class="nav-link active" aria-current="page" href="#"><router-link to="/">Home</router-link> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
+            <a class="nav-link" href="#"><router-link to="/about">About of</router-link></a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -37,9 +37,6 @@
               <li><a class="dropdown-item" href="#"><router-link to="/studentView">View</router-link></a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
         </ul>
         <form class="d-flex" role="search">
           <input
@@ -54,8 +51,9 @@
     </div>
     
   </nav>
-
-  <router-view />
+  <div class="container-fluid">
+    <router-view />
+  </div>
 </template>
 
 <style>
