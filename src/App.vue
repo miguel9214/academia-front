@@ -16,10 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><router-link to="/">Home</router-link> </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/about">About of</router-link></a>
+            <a class="nav-link" aria-current="page" href="#"><router-link to="/">Home</router-link> </a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -45,7 +42,7 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-line-success" type="submit">Search</button>
         </form>
       </div>
     </div>
