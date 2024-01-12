@@ -76,7 +76,7 @@ export default {
   methods: {
     getStudent() {
       this.loadData = true;
-      axios.get("http://127.0.0.1:8000/api/v1/students").then((res) => {
+      axios.get("http://academia-back.test/api/v1/students").then((res) => {
         this.students = res.data;
         this.loadData = false;
       });
